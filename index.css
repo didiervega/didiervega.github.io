@@ -31,20 +31,19 @@ body{
 }
 
 .profile-picture{
-  width: 150px;
+  width: 200px;
   position: absolute;
-  top: -75px;
+  top: -95px;
   border-radius: 100%;
-  left: 50%;
+  left: 47%;
   margin-left: -75px;
-  height: 150px;
+  height: 200px;
 }
 
 
 #content-header h1{
-  padding-top: 100px;
+  padding-top: 130px;
   margin: 0px;
-
 }
 
 #content-header p{
@@ -54,8 +53,9 @@ body{
 }
 
 .content{
-  width: 350px;
+  width: 700px;
   margin: 20px auto;
+  text-align: justify;
 }
 
 #content-header{
@@ -77,6 +77,7 @@ body{
 p{
   line-height: 1.5;
   margin: 0px;
+  !text-indent: 50px;
 }
 
 a{
