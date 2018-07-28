@@ -95,7 +95,7 @@ a{
 
 .content a{
   color: #333;
-}
+ }
 
 .project p{
   margin: 5px 0px 20px;
@@ -114,6 +114,8 @@ a{
 
 .list-link a{
   color: #333;
+  font-family: arial, times;
+  font-size: 120%;
 }
 
 
