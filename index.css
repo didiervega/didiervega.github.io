@@ -84,11 +84,17 @@ p{
 a{
   color: #5F71B0;
   text-decoration: none;
+  font-family: arial, times;
+  font-size: large;
 }
 
 .content h4{
   margin-bottom: 10px;
   font-family: arial;
+}
+
+.content a{
+  color: #333;
 }
 
 .project p{
