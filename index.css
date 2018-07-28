@@ -14,11 +14,17 @@ body{
 
   font-family: arial, times;
   font-size: large;
-
   overflow-y: scroll;
 }
 
-
+.topic { 
+  width: 700px;
+  margin: 20px auto;
+  color: #5F71B0;
+  font-size: 22px; 
+  text-decoration: none;
+ 
+}
 
 .center-content{
   width: 800px;
@@ -81,13 +87,6 @@ p{
   !text-indent: 50px;
 }
 
-a{
-  color: #5F71B0;
-  text-decoration: none;
-  font-family: arial, times;
-  font-size: large;
-}
-
 .content h4{
   margin-bottom: 10px;
   font-family: arial;
@@ -95,6 +94,7 @@ a{
 
 .content a{
   color: #333;
+  text-decoration: none;
  }
 
 .project p{
@@ -116,13 +116,9 @@ a{
   color: #333;
   font-family: arial, times;
   font-size: 22px;
+  text-decoration: none;
 }
 
-.topic { 
-font-size: 22px; 
-text-decoration: none;
-color: #5F71B0; 
-}
 
 .list-link:hover {
   background: #5F71B0;
