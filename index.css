@@ -53,10 +53,48 @@ body{
   margin: 0px;
 }
 
+ol{
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: -1em;
+    margin-right: 0;   
+}
+
 #content-header p{
   margin-top: 5px;
   margin-bottom: 0px;
   color: #8a8a8a;
+}
+
+p.p1{  
+  margin-left: 45px; 
+  margin-top: 0;
+  margin-bottom: 20px;   
+}
+
+.grid-container {
+  margin-left: 2px;
+  display: grid;
+  grid-template-columns: 6% 93%;
+  grid-gap: 5px;
+  !background-color: #2196F3;
+  margin-top: -11px;
+  margin-bottom: 20px; 
+  
+}
+.grid-container div {
+  !background-color: rgba(255, 255, 255, 0.8);  
+  padding:5px 0px;
+}
+
+
+a.title{  
+  color: #333;
+  font-family: arial, times;
+  text-decoration: none;
+  font-weight: bold;  
 }
 
 .content{
